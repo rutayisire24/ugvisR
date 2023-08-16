@@ -1,7 +1,14 @@
 
 
-
-
+#' Theme Ugnda
+#'
+#' @return A standardised Visualalisation
+#' @export
+#'
+#' @examples
+#' ggplot(mtcars, aes(wt, mpg)) +
+#' geom_point() +
+#' labs(title = "Fuel economy declines as weight increases")
 theme_ug <- function(){
   font <- "Georgia"   #assign font family up front
 

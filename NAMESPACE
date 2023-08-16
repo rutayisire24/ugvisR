@@ -2,4 +2,5 @@
 
 export("%>%")
 export(compute_corr)
+export(theme_ug)
 importFrom(magrittr,"%>%")
