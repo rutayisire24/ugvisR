@@ -9,3 +9,9 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports: 
+    broom,
+    dplyr,
+    magrittr
+url: https://github.com/rutayisire24/ugvisR
+BugReports: https://github.com/rutayisire24/ugvisR/issues
