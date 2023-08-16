@@ -11,7 +11,7 @@ The goal of ugvisR is to ...
 You can install the development version of ugvisR like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remote::install_github("rutayisire24/ugvisR")
 ```
 
 ## Example
