@@ -12,6 +12,7 @@ RoxygenNote: 7.2.3
 Imports: 
     broom,
     dplyr,
+    ggplot2,
     magrittr
 url: https://github.com/rutayisire24/ugvisR
 BugReports: https://github.com/rutayisire24/ugvisR/issues
