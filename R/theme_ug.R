@@ -1,26 +1,13 @@
 
 
-#' Theme Uganda
-#'
-#' More explanations
-#'
-#' @return Standardised theme for Ugandas plots
-#' @export
-#'
-#' @examples
-#' iris %>% ggplot(aes(x = Sepal.Length, y = Sepal.Width,color = Species)) +
-#'           geom_point() +
-#'           labs(x = "Sepal Length",y = "Sepal Width",
-#'           title = "The length of the Sepals \n  against their width",
-#'           caption = "Source: ggplot2 \n Part of the tidyverse")+
-#'           theme_ug()
+
 
 theme_ug <- function(){
   font <- "Georgia"   #assign font family up front
 
-  theme_minimal() %+replace%    #replace elements we want to change
+  ggplot2::theme_minimal() %+replace%    #replace elements we want to change
 
-    theme(
+    ggplot2::theme(
 
       #grid elements
       panel.grid.major = element_blank(),    #strip major gridlines
